@@ -4,3 +4,14 @@ https://nodejs.org/en/
 web deployment agent service to start wamp
 
 install npm
+
+install http-server
+
+http-server &
+
+pip install https://github.com/sgillies/topojson/archive/master.tar.gz
+
+https://raw.githubusercontent.com/d3/d3-geo/master/test/data/world-50m.json
+https://gist.githubusercontent.com/mbostock/4090846/raw/07e73f3c2d21558489604a0bc434b3a5cf41a867/world-50m.json
+
+http://bl.ocks.org/aaizemberg/78bd3dade9593896a59d

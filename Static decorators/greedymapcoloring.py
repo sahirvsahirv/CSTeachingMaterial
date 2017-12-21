@@ -1,15 +1,24 @@
 import json
 import codecs
+from topojson import geometry
 
 import requests
+#import urllib
 
-data = requests.get("https://raw.githubusercontent.com/d3/d3-geo/master/test/data/world-50m.json").json()
 
+
+#p = geometry({'type': "LineString", 'arcs': [0]}, topology1['arcs'])
+#pprint.pprint(p)
 #input_file = open(r'C:\Users\Gowri\Desktop\CS_classes\MaterialRepo\CSTeachingMaterial\Map Colouring\data\world-50m.json', "r")
 #dataform = str(input_file).strip("'<>() ").replace('\'', '\"')
 #data = json.loads(dataform)
 #with open('C:\Users\Gowri\Desktop\CS_classes\MaterialRepo\CSTeachingMaterial\Map Colouring\data\world-50m.json') as json_file:
     #data = json.loads(json_file)
+
+
+#works
+#data = requests.get("https://raw.githubusercontent.com/d3/d3-geo/master/test/data/world-50m.json").json()
+
 ##for country in data:
 ##        print( country)
 
@@ -39,9 +48,10 @@ data = requests.get("https://raw.githubusercontent.com/d3/d3-geo/master/test/dat
 ##type
 ##geometries
 
-for country in data['objects']['countries']['geometries']:
-        print( country['type'])
-        print( country['id'])
+#works
+##for country in data['objects']['countries']['geometries']:
+##        print( country['type'])
+##        print( country['id'])
         
 ##bbox
 ##geometries
