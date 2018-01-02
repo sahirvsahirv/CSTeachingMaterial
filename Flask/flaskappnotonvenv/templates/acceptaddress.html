@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<h1>Enter your coordinates</h1>
+
+<script src="static/jquery-3.2.1.min.js"> </script>
+
+</head>
+<body>
+
+
+<script>
+var url = {{ url_for('changedataandsenditbacktopython', jsdata=ab) }}
+console.log(url)	
+//action={{ url_for('getaddressofuser')}} - not required in form
+//method="POST"  - this post is used for redirect
+</script>
+
+<form id="formlocdata" action={{ url_for('showmapofcountry')}} method="POST" role="form">
+console.log("form action")
+<table>
+<tr> <td>Flat No</td><td><input id="flatno" name="FlatNo"> </td></tr>
+<tr> <td>Street Name</td><td><input id="streetname" name="streetname"> </td></tr>
+<tr> <td>Locality</td><td><input id="locality" name="locality"> </td></tr>
+<tr> <td>Pin Code</td><td><input id="pinno" name="pinnoo"> </td></tr>
+<tr> <td>City</td><td><input id="city" name="city"> </td></tr>
+<tr> <td>State</td><td><input id="state" name="state"> </td></tr>
+</table>
+<button id="submitbtn" type="button">Get me the map</button>
+</form>
+
+
+<script>
+//script after button and form
+$(function() {
+	
+    $('#submitbtn').click(function() {
+	console.log("inside button click")
+       var user = $('#flatno').val();
+	console.log(user);
+
+	$.post("/getlocation", {"data": user})
+//        $.ajax({
+//            url: 'http://localhost:5000/getlocation/',
+//            data: $('#formlocdata').serialize(),
+//            type: 'POST',
+//            success: function(response) {
+//                console.log(response);
+//            },
+ //           error: function(error) {
+//                console.log(error);
+//            }
+//        });
+    });
+
+});
+</script>
+
+</body>
+
+
+</html>
+
+

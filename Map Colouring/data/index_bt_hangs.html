@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+body {
+  background: #fcfcfa;
+}
+
+.stroke {
+  fill: none;
+  stroke: #000;
+  stroke-width: 3px;
+}
+
+.fill {
+  fill: #fff;
+}
+
+.graticule {
+  fill: none;
+  stroke: #777;
+  stroke-width: .5px;
+  stroke-opacity: .5;
+}
+
+.land {
+  fill: #222;
+}
+
+.boundary {
+  fill: none;
+  stroke: #fff;
+  stroke-width: .5px;
+}
+
+</style>
+<body>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="//d3js.org/d3.geo.projection.v0.min.js"></script>
+<script src="//d3js.org/topojson.v1.min.js"></script>
+<script>
+//backtracking
+
+
+
+function gen4col_obj(vertices, stopAtOne) {
+  //var solutions = [],
+    //  oneRow    = gen4col_bt(solutions, vertices, 0, [], stopAtOne);
+  //return oneRow? oneRow : solutions;
+}
+//backtracking
+var width = 960,
+    height = 580;
+
+var color = d3.scale.category10();
+
+function colores_google(n) {
+  var colores_g = ["#dc3912", "#ff9900", "#990099", "#66aa00"];
+  return colores_g[n];
+}
+
+var projection = d3.geo.kavrayskiy7()
+    .scale(170)
+    .translate([width / 2, height / 2])
+    .precision(.1);
+
+var path = d3.geo.path()
+    .projection(projection);
+
+var graticule = d3.geo.graticule();
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+svg.append("defs").append("path")
+    .datum({type: "Sphere"})
+    .attr("id", "sphere")
+    .attr("d", path);
+
+svg.append("use")
+    .attr("class", "stroke")
+    .attr("xlink:href", "#sphere");
+
+svg.append("use")
+    .attr("class", "fill")
+    .attr("xlink:href", "#sphere");
+
+svg.append("path")
+    .datum(graticule)
+    .attr("class", "graticule")
+    .attr("d", path);
+
+d3.json("world-50m.json", function(error, world) {
+  if (error) throw error;
+
+  var countries = topojson.feature(world, world.objects.countries).features,
+      neighbors = topojson.neighbors(world.objects.countries.geometries);
+	
+  //var colors = [d3.rgb("red"), d3.rgb("orange"), d3.rgb("purple"), d3.rgb("green")];
+ 	
+  function checkneighborcolor(d,i, color)
+  {	
+	//console.log("checking neighbors");
+	if ( (neighbors[i] == null) || (neighbors[i].length == 0) )
+	{
+		//no neighbors
+		//console.log("no neighbors, default color");
+		return true; //for 0th color
+
+	}
+	for( var j =0; j < neighbors[i].length; j++)
+        {	
+		if(colores_google(color) == countries[neighbors[i][j]].color)
+		{	
+			return false;
+		}
+		
+	}
+	return true;
+  }
+  function getcolorforcountry(d, i)
+  {	
+		for (color in [0,1,2,3])
+		{
+			if(checkneighborcolor(d, i, color))
+			{
+				return color;
+			} 
+				
+		}
+		//if it comes here all 4 colors did not match
+		
+		//for (var j =0; j < neighbors[i].length; j++)
+		//{
+		//	console.log(neighbors[i][j] + " " + countries[neighbors[i][j]].color);
+		//}		
+		
+		
+	
+  }
+
+ function colorforcountry(d,i)
+{
+			var color;
+			color = getcolorforcountry(d, i);
+			
+			return colores_google(color);
+}
+
+function gen4col_bt(d, i, stopAtOne) { // generate a 4-coloring through backtracking
+
+  for (let color=0; color<4; ++color) 
+  {
+	
+    	
+	if(checkneighborcolor(d,i, color))
+	{	
+		//choosing a color for now
+		if(d == null)
+		{
+			//what to do here?
+			return colores_google(color);	
+		}
+		d.color = color;	
+		if(gen4col_bt(countries[i+1], i+1, stopAtOne)) //d is same as countries[i]
+		{
+			return colores_google(color);
+		}
+		//need to backtrack
+		d.color = null;
+	}
+    
+
+  }
+  //if here undefined
+  console.log("should not come here");
+  return null;
+}
+function gen4col(d, i, stopAtOne) {
+  //return gen4col_obj(vertices.map(arr => { return { neighbors: arr }; }), stopAtOne);
+ //return gen4col_obj(d,i, true);
+ return gen4col_bt(d,i, stopAtOne);
+}
+  svg.selectAll(".country")
+      .data(countries)
+    .enter().insert("path", ".graticule")
+      .attr("class", "country")
+      .attr("d", path)
+      .style("fill", function(d,i){
+			// d.color = colorforcountry(d,i); return d.color;  
+			d.color = gen4col(d, i, true); return d.color;
+			});
+	 
+			 
+
+  svg.insert("path", ".graticule")
+      .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
+      .attr("class", "boundary")
+      .attr("d", path);
+});
+
+d3.select(self.frameElement).style("height", height + "px");
+
+</script>

@@ -1,0 +1,8 @@
+radio 
+morse code generator
+tesla coil
+light throuh coils
+catapult
+vaccum cleaner
+joule thief
+speaker with arduino

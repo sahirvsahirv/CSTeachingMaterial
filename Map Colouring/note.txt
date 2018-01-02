@@ -1,3 +1,4 @@
+
 download node.js and npm from
 https://nodejs.org/en/
 
@@ -15,3 +16,37 @@ https://raw.githubusercontent.com/d3/d3-geo/master/test/data/world-50m.json
 https://gist.githubusercontent.com/mbostock/4090846/raw/07e73f3c2d21558489604a0bc434b3a5cf41a867/world-50m.json
 
 http://bl.ocks.org/aaizemberg/78bd3dade9593896a59d
+
+
+ 533
+ #dc3912
+
+4
+    #ff9900
+
+24
+   #990099
+
+660  #dc3912
+
+8
+    #66aa00
+
+248  #dc3912
+
+20   #990099
+
+784  #990099
+
+32
+   undefined
+
+51   #66aa00
+
+
+https://medium.com/the-node-js-collection/why-the-hell-would-you-use-node-js-4b053b94ab8e
+
+https://www.cs.cornell.edu/courses/cs3110/2009fa/recitations/rec22.html
+https://www2.cs.arizona.edu/people/sankar/dissertation.pdf
+
+https://www2.cs.arizona.edu/people/sankar/dissertation.pdf

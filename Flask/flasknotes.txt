@@ -1,0 +1,23 @@
+1. virtualenv "path of virtualenv"
+2. will download and install all packages in this directory
+3. cd the dir path
+cd scripts
+activate
+4. the shell appears
+5. pip install flask here
+6. since not using pydev - python interpreter by typing python on the virtualenv prompt
+7. following https://www.ntu.edu.sg/home/ehchua/programming/webprogramming/Python3_Flask.html
+
+
+8. put the file in the scripts dir - since that is the path i gave
+
+(bin) C:\Users\Gowri\Desktop\CS_classes\MaterialRepo\CSTeachingMaterial\Flask\mynewapp\bin\Scripts>python flaskapp.py
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+
+9. run python flaskapp.py
+
+
+-did not run on virtual environment
+
+-passed data to javascript using jinja templating
+-retrieve data from javascript and send it to python -using jquery or angularjs
