@@ -16,7 +16,7 @@ console.log(url)
 //method="POST"  - this post is used for redirect
 </script>
 
-<form id="formlocdata" action={{ url_for('showmapofcountry')}} method="POST" role="form">
+<form id="formlocdata" action={{ url_for('showmapcountry')}} method="POST" role="form">
 console.log("form action")
 <table>
 <tr> <td>Flat No</td><td><input id="flatno" name="FlatNo"> </td></tr>
@@ -26,7 +26,8 @@ console.log("form action")
 <tr> <td>City</td><td><input id="city" name="city"> </td></tr>
 <tr> <td>State</td><td><input id="state" name="state"> </td></tr>
 </table>
-<button id="submitbtn" type="button">Get me the map</button>
+<!-- A button type button could send form data but you would need to manually script it to which is beyond my knowledge.-->
+<button id="submitbtn" type="submit">Get me the map</button>
 </form>
 
 
