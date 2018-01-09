@@ -21,3 +21,50 @@ activate
 
 -passed data to javascript using jinja templating
 -retrieve data from javascript and send it to python -using jquery or angularjs
+
+
+NOTE: to have a virtual environment of Python - 2.7
+
+http://docs.python-guide.org/en/latest/dev/virtualenvs/
+-->virtualenv -p /usr/bin/python2.7 my_project
+
+instead of bin/activate - scripts/activate
+ 
+and use activate in windows - run activate in the Scripts directory
+
+
+You are doing it on  2.7 to install scrapy -- did not work on python 3
+ -----SCRAPY shell does not work
+
+-->pip install pypiwin32
+
+-- provides GPS coordinates
+https://www.maps.ie/coordinates.html
+https://www.latlong.net/
+http://en.mygeoposition.com/
+
+-->. now run scrapyshell
+
+https://diyhacking.com/makerspaces/ 
+either google or use some direct link like this
+
+
+following this link - for scrapy 
+https://www.analyticsvidhya.com/blog/2017/07/web-scraping-in-python-using-scrapy/
+
+
+Virtual directory was at C:\Users\Gowri
+change directory to C:\Users\Gowri\Desktop\CS_classes\MaterialRepo\CSTeachingMaterial\Flask\fullstackapp
+
+one level above the virtual environment and create a new directory - makerspacescrpaper
+
+--> scrapy startproject makerspacescraper
+
+
+cd to makerspacesscraper and execute
+
+scrapy runspider makerspacescraper\spiders\makerspacebot.py -o table.csv
+
+
+https://bl.ocks.org/mbostock/1353700
+https://bl.ocks.org/sahirvsahirv/CSTeachingMaterial/blob/master/Map%20Colouring/data/index_greedy.html
