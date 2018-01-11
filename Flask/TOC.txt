@@ -1,0 +1,28 @@
+1. Python basics
+2. generatorand decorators
+3. virtual environment
+4. Deployment on localhost, pythonanywhere and cloud
+5. Unit testing and TDD and debugging with pdb
+6.  Write flask app, get from client and post from client side
+7. HTML/CSS and Jinja and bootstrap
+8. database
+9. data analysis and visualisation
+10. can add ML, NLP and D3 and gecoding
+
+
+https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world-legacy
+https://medium.com/coderbyte/a-guide-to-becoming-a-full-stack-developer-in-2017-5c3c08a1600c
+
+https://classroom.udacity.com/courses/ud855 - android course
+
+
+User creates a complete web application where he is shown a list of makerspaces and 
+he gives his current loction.
+Next step is to scrape the data from the makerspaces list and store in the database, probably along
+with the geo location
+from the current location, write back end code to find the closest geo location of any makerspace
+pass that data to the client and show it in some data visualizer - can be just showing the map
+
+https://pythonbooks.revolunet.com/
+http://flask.pocoo.org/docs/0.12/tutorial/
+

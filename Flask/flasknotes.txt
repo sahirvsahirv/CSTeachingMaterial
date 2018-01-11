@@ -68,3 +68,19 @@ scrapy runspider makerspacescraper\spiders\makerspacebot.py -o table.csv
 
 https://bl.ocks.org/mbostock/1353700
 https://bl.ocks.org/sahirvsahirv/CSTeachingMaterial/blob/master/Map%20Colouring/data/index_greedy.html
+
+
+-->Go to the virtual dir scripts folder and activate
+--> cd to the makespace folder -> one level above the spider folder is
+scrapy runspider makerspacescraper\spiders\makerspacebot.py -o table.csv
+--->pick up xpath from the browser https://3583bytesready.net/2016/08/17/scraping-data-python-xpath/
+---> and pycharm with virtualenv https://ohadp.com/pycharm-debug-inside-a-pip-in-a-virtual-env-97aa98eac77f
+--> Go to configuration - of makerspacebot and set the script as run.py to enable debugging
+--> in edit parameters -> makerspacebot sccript parameters enter"crawl makerspacebot"
+https://stackoverflow.com/questions/21788939/how-to-use-pycharm-to-debug-scrapy-projects
+
+1. Created a virtual env for 2.7
+2. Installed scrapy on it
+3. Wrote the spider
+4. configuring pycharm for the virtualenv
+5. Debugging the spider using pycharm
