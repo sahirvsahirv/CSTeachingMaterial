@@ -1,0 +1,3 @@
+ESC *1.5
+3500kV-
+large 12 V lipo- 4000mAH 4A - 1H

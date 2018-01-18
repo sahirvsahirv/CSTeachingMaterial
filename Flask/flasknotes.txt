@@ -84,3 +84,12 @@ https://stackoverflow.com/questions/21788939/how-to-use-pycharm-to-debug-scrapy-
 3. Wrote the spider
 4. configuring pycharm for the virtualenv
 5. Debugging the spider using pycharm
+6. Configuring git
+https://stackoverflow.com/questions/21788939/how-to-use-pycharm-to-debug-scrapy-projects
+
+was creating a new instance of configuration- have to debug straight from the top
+DEbugging done-
+
+now scrape
+->copy xpath 
+-->ctrl F to get to find xpath
