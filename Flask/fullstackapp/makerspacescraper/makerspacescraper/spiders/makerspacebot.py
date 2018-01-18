@@ -11,6 +11,7 @@ LOG_FILENAME = 'scraperspider.log'
 
 class MakerSpaces(scrapy.Item):
     url = scrapy.Field()
+    name = scrapy.Field()
 
 class MakerspacebotSpider(scrapy.Spider):
     #name with which you run the command line - scrapy crawl ,akerspacebot
@@ -53,12 +54,36 @@ class MakerspacebotSpider(scrapy.Spider):
     def parse(self, response):
      #   #view the HTML to see how the data looks
         #object of the Item class
-        item = MakerSpaces()
-            #*[@id="mk-page-section-5a5dd165039f5"]/div[3]/div[1]/div/div[5]/div/table[3]/tbody/tr[8]/td[2]
-        #mk-fancy-table mk-shortcode table-style2
-        urls = scrapy.Selector(response).xpath('//div[@class="mk-fancy-table"]//div[@class="mk-shortcode"]').extract()
-        print("url is = " + str(urls))
 
+            #*[@id="mk-page-section-5a5dd165039f5"]/div[3]/div[1]/div/div[5]/div/table[3]/tbody/tr[8]/td[2]
+
+        #examples
+        #//table[@id="table_text"]//tr//td[2]//a//@href'
+        #response.xpath('//*[@id="Year1"]/table//tr')
+        #item['hol'] = product.xpath('td[1]//text()').extract_first()
+        #mk-fancy-table mk-shortcode table-style2
+
+        #response.xpath('//div[contains(concat(" ", normalize-space(@class), " "), " product-item view-list ")]')
+        #response.css('div.product-item.view-list')
+        urls = response.css('div.mk-fancy-table.mk-shortcode.table-style2')
+        msnames = urls.xpath('//table//tr//td[2]//text()').extract()
+        msurls = urls.xpath('//table//tr//td[4]//text()').extract()
+        item = MakerSpaces()
+        item['url'] = msurls
+        item['name'] = msnames
+        #print("item is = " + str(item))
+        return item
+        #for count in range(len(msurls)):
+         #   item = MakerSpaces()
+          #  item.url = msurls[count]
+           # item.name = msnames[count]
+        #    #item.name = dataname
+        #   print("item is = " + str(item))
+
+
+
+        print("item is = " + str(item))
+        #print("first item is = " + str(makerspaceurls[0]))
         #item['url'] = urls
         #return item
 
