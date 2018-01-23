@@ -64,9 +64,16 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'makerspacescraper.pipelines.MakerspacescraperPipeline': 300,
-#}
+
+#commenting it for the flask app - not working with arachnade
+
+ITEM_PIPELINES = {
+        #'makerspacescraper.pipelines.MakerspacescraperPipeline': 300,
+        #'makerspacescraper.pipelines.JsonPipeline': 300,
+        #from flask since the directory is different - remove makerspacescraper
+        'pipelines.JsonPipeline': 300,
+    }
+
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
@@ -88,3 +95,24 @@ ROBOTSTXT_OBEY = True
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+
+#adding spider settings to enable arachne as a flask app
+#location is the location of the makerspacebot.py file
+
+#spider : name of the class
+#endpoint is http://localhost:8080/run-spider/makerspacebot
+#location is the file name
+SPIDER_SETTINGS = [
+    {
+        'endpoint': 'makerspacebot',
+        'location': 'spiders.makerspacebot',
+        'spider': 'MakerspacebotSpider',
+
+       #'scrapy_settings':  {
+        #    'ITEM_PIPELINES': {
+         #       'pipelines.JsonPipeline': 500
+          #  }
+        #}
+    }
+]

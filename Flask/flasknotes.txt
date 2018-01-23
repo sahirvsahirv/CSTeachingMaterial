@@ -93,3 +93,63 @@ DEbugging done-
 now scrape
 ->copy xpath 
 -->ctrl F to get to find xpath
+
+cd to spiders dir
+scrapy crawl makerspacebot (the name given in name="")
+
+
+Pipeline class
+http://www.scrapingauthority.com/2016/09/19/scrapy-exporting-json-and-csv/
+
+Differences
+http://www.scrapingauthority.com/2016/10/03/scrapy-beautifulsoup-difference
+
+yield: and put pipeline in pipelines.py
+https://stackoverflow.com/questions/43922562/scrapy-how-to-use-items-in-spider-and-how-to-send-items-to-pipelines/43932615
+
+
+TODO: 
+use mongoDB
+scrapy deamon - not as a deamon but start and stop on a falsk app using buttons
+amazon login and scrape
+deamon with flask
+geojson api
+cloud google
+da and ml
+
+
+scrapy deamon
+
+-- not using it, using flask api for scrapy and will run as a python deamon?
+pip install scrapy deamon in the virtual env
+
+
+
+install arachne
+http://arachne.readthedocs.io/en/latest/
+
+1. download the latest version of arachne on to the Scripts folder
+2. and say pip install Arachne...
+
+
+folder structure for flask
+https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications
+
+The directory structure of Arachne requires it to be in this folder
+C:\Users\Gowri\Desktop\CS_classes\MaterialRepo\CSTeachingMaterial\Flask\fullstackapp\makerspacescraper\makerspacescraper
+
+
+cd to C:\Users\Gowri\Desktop\CS_classes\MaterialRepo\CSTeachingMaterial\Flask\fullstackapp\makerspacescraper\makerspacescraper
+and start
+
+python Arachneflaskapp.py
+
+- and that starts scrapy
+
+
+run http://localhost:8080/ - scrapy app makerspacebot tries to run
+
+Refer to demo
+https://github.com/kirankoduru/arachne-demo
+
+now call this link from another page
