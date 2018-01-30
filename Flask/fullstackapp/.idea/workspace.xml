@@ -2,253 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6c78ea0-cdc4-4364-82cc-3aad416e0475" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd/tests/mybot.egg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd/tests/mybot2.egg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd/tests/mybot3.egg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd/tests/mybotunicode.egg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/debug/shared/console.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/debug/shared/less.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/debug/shared/more.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/debug/shared/source.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/debug/shared/ubuntu.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Scripts/Arachne-0.5.0.tar.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Scripts/flask.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Scripts/scrapyd.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flaskappexample/arachneflaskapp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flaskappexample/samplewebapp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flaskappexample/static/bootstrap.bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flaskappexample/static/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flaskappexample/static/jquery-3.2.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flaskappexample/templates/acceptaddress.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flaskappexample/templates/changedatainjs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flaskappexample/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flaskappexample/templates/postdatafromserverthroughget.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flaskappexample/templates/showmap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Arachne-0.5.0.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Arachne-0.5.0.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Arachne-0.5.0.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Arachne-0.5.0.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Arachne-0.5.0.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Arachne-0.5.0.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Arachne-0.5.0.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Flask-0.12.2.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Flask-0.12.2.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Flask-0.12.2.dist-info/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Flask-0.12.2.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Flask-0.12.2.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Flask-0.12.2.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Flask-0.12.2.dist-info/entry_points.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Flask-0.12.2.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Flask-0.12.2.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Jinja2-2.10.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Jinja2-2.10.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Jinja2-2.10.dist-info/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Jinja2-2.10.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Jinja2-2.10.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Jinja2-2.10.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Jinja2-2.10.dist-info/entry_points.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Jinja2-2.10.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Jinja2-2.10.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/MarkupSafe-1.0.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/MarkupSafe-1.0.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/MarkupSafe-1.0.dist-info/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/MarkupSafe-1.0.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/MarkupSafe-1.0.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/MarkupSafe-1.0.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/MarkupSafe-1.0.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/MarkupSafe-1.0.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Werkzeug-0.14.1.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Werkzeug-0.14.1.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Werkzeug-0.14.1.dist-info/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Werkzeug-0.14.1.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Werkzeug-0.14.1.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Werkzeug-0.14.1.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Werkzeug-0.14.1.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/Werkzeug-0.14.1.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/arachne/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/arachne/default_settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/arachne/endpoints.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/arachne/exceptions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/arachne/extensions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/arachne/flaskapp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/arachne/scrapy_utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/arachne/tests/BaseFlaskApp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/arachne/tests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/arachne/tests/test_default_settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/arachne/tests/test_endpoints.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/arachne/tests/test_extensions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/arachne/tests/test_flaskapp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/arachne/tests/test_scrapy_utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/arachne/tests/test_settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/click-6.7.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/click-6.7.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/click-6.7.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/click-6.7.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/click-6.7.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/click-6.7.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/click-6.7.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/click/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/click/_bashcomplete.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/click/_compat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/click/_termui_impl.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/click/_textwrap.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/click/_unicodefun.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/click/_winconsole.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/click/core.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/click/decorators.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/click/exceptions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/click/formatting.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/click/globals.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/click/parser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/click/termui.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/click/testing.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/click/types.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/click/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/flask/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/flask/__main__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/flask/_compat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/flask/app.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/flask/blueprints.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/flask/cli.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/flask/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/flask/ctx.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/flask/debughelpers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/flask/ext/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/flask/exthook.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/flask/globals.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/flask/helpers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/flask/json.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/flask/logging.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/flask/sessions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/flask/signals.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/flask/templating.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/flask/testing.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/flask/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/flask/wrappers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/itsdangerous-0.24.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/itsdangerous-0.24.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/itsdangerous-0.24.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/itsdangerous-0.24.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/itsdangerous-0.24.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/itsdangerous-0.24.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/itsdangerous-0.24.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/itsdangerous.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/jinja2/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/jinja2/_compat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/jinja2/_identifier.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/jinja2/asyncfilters.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/jinja2/asyncsupport.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/jinja2/bccache.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/jinja2/compiler.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/jinja2/constants.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/jinja2/debug.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/jinja2/defaults.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/jinja2/environment.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/jinja2/exceptions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/jinja2/ext.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/jinja2/filters.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/jinja2/idtracking.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/jinja2/lexer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/jinja2/loaders.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/jinja2/meta.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/jinja2/nativetypes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/jinja2/nodes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/jinja2/optimizer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/jinja2/parser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/jinja2/runtime.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/jinja2/sandbox.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/jinja2/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/jinja2/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/jinja2/visitor.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/markupsafe/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/markupsafe/_compat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/markupsafe/_constants.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/markupsafe/_native.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/markupsafe/_speedups.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd-1.2.0.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd-1.2.0.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd-1.2.0.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd-1.2.0.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd-1.2.0.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd-1.2.0.dist-info/entry_points.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd-1.2.0.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd-1.2.0.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd/VERSION" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd/_deprecate.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd/app.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd/default_scrapyd.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd/eggstorage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd/eggutils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd/environ.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd/interfaces.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd/launcher.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd/poller.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd/runner.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd/scheduler.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd/script.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd/scripts/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd/scripts/scrapyd_run.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd/spiderqueue.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd/sqlite.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd/txapp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd/webservice.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapyd/website.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/_compat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/_internal.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/_reloader.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/contrib/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/contrib/atom.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/contrib/cache.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/contrib/fixers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/contrib/iterio.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/contrib/jsrouting.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/contrib/limiter.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/contrib/lint.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/contrib/profiler.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/contrib/securecookie.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/contrib/sessions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/contrib/testtools.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/contrib/wrappers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/datastructures.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/debug/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/debug/console.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/debug/repr.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/debug/shared/FONT_LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/debug/shared/debugger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/debug/shared/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/debug/shared/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/debug/tbtools.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/exceptions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/filesystem.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/formparser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/http.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/local.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/posixemulation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/routing.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/script.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/security.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/serving.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/testapp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/useragents.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/websocket.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/wrappers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullstackapp/Lib/site-packages/werkzeug/wsgi.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/makerspacescraper/makerspacescraper/spiders/table.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/makerspacescraper/makerspacescraper/spiders/table.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/makerspacescraper/table.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flaskappexample/arachneflaskapp.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../flasknotes.txt" afterPath="$PROJECT_DIR$/../flasknotes.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/fullstackapp.iml" afterPath="$PROJECT_DIR$/.idea/fullstackapp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fullstackapp/pip-selfcheck.json" afterPath="$PROJECT_DIR$/fullstackapp/pip-selfcheck.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/makerspacescraper/makerspacescraper/pipelines.py" afterPath="$PROJECT_DIR$/makerspacescraper/makerspacescraper/pipelines.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flaskappexample/samplewebapp.py" afterPath="$PROJECT_DIR$/flaskappexample/samplewebapp.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flaskappexample/templates/changedatainjs.html" afterPath="$PROJECT_DIR$/flaskappexample/templates/changedatainjs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flaskappexample/templates/showmap.html" afterPath="$PROJECT_DIR$/flaskappexample/templates/showmap.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/makerspacescraper/makerspacescraper/arachneflaskapp.py" afterPath="$PROJECT_DIR$/makerspacescraper/makerspacescraper/arachneflaskapp.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/makerspacescraper/makerspacescraper/settings.py" afterPath="$PROJECT_DIR$/makerspacescraper/makerspacescraper/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/makerspacescraper/makerspacescraper/spiders/makerspacebot.py" afterPath="$PROJECT_DIR$/makerspacescraper/makerspacescraper/spiders/makerspacebot.py" />
     </list>
     <ignored path="fullstackapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -269,13 +32,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="makerspacebot.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="samplewebapp.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flaskappexample/samplewebapp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="81" column="38" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arachneflaskapp.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/makerspacescraper/makerspacescraper/arachneflaskapp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.17211704">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="showmap.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flaskappexample/templates/showmap.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.344828">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="postdatafromserverthroughget.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flaskappexample/templates/postdatafromserverthroughget.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="changedatainjs.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flaskappexample/templates/changedatainjs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.7586207">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="makerspacesdata" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/makerspacescraper/makerspacescraper/spiders/makerspacesdata">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="makerspacebot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/makerspacescraper/makerspacescraper/spiders/makerspacebot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5438898">
-              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="81" column="58" selection-start-line="81" selection-start-column="58" selection-end-line="81" selection-end-column="58" />
               <folding>
-                <element signature="e#24#37#0" expanded="true" />
                 <element signature="e#1199#1912#0" expanded="false" />
                 <element signature="e#1953#1985#0" expanded="false" />
               </folding>
@@ -283,95 +107,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="arachneflaskapp.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flaskappexample/arachneflaskapp.py">
+      <file leaf-file-name="table.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/makerspacescraper/makerspacescraper/spiders/table.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/makerspacescraper/makerspacescraper/pipelines.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="18" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/makerspacescraper/makerspacescraper/settings.py">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flaskappexample/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.068966">
-              <caret line="111" column="7" selection-start-line="111" selection-start-column="7" selection-end-line="111" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="arachneflaskapp.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/makerspacescraper/makerspacescraper/arachneflaskapp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/makerspacescraper/makerspacescraper/run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="crawler.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapy/crawler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="290" column="0" selection-start-line="290" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="crawl.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapy/commands/crawl.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cmdline.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapy/cmdline.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fullstackapp/Lib/site-packages/pkg_resources/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.5172415">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -394,10 +144,13 @@
       <list>
         <option value="$PROJECT_DIR$/makerspacescraper/makerspacescraper/run.py" />
         <option value="$PROJECT_DIR$/makerspacescraper/BeautifulSoupScraper.py" />
-        <option value="$PROJECT_DIR$/makerspacescraper/makerspacescraper/arachneflaskapp.py" />
         <option value="$PROJECT_DIR$/makerspacescraper/makerspacescraper/pipelines.py" />
         <option value="$PROJECT_DIR$/makerspacescraper/makerspacescraper/settings.py" />
         <option value="$PROJECT_DIR$/makerspacescraper/makerspacescraper/spiders/makerspacebot.py" />
+        <option value="$PROJECT_DIR$/makerspacescraper/makerspacescraper/arachneflaskapp.py" />
+        <option value="$PROJECT_DIR$/flaskappexample/templates/changedatainjs.html" />
+        <option value="$PROJECT_DIR$/flaskappexample/templates/showmap.html" />
+        <option value="$PROJECT_DIR$/flaskappexample/samplewebapp.py" />
       </list>
     </option>
   </component>
@@ -439,7 +192,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -451,9 +203,15 @@
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 2.7.14 virtualenv at C:\Users\Gowri\Desktop\CS_classes\MaterialRepo\CSTeachingMaterial\Flask\fullstackapp\fullstackapp &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+              <option name="myItemId" value="fullstackapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fullstackapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -538,12 +296,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fullstackapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fullstackapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flaskappexample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fullstackapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fullstackapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flaskappexample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/flaskappexample/samplewebapp.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -555,7 +350,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.makerspacebot">
+  <component name="RunManager" selected="Python.samplewebapp">
     <configuration default="false" name="BeautifulSoupScraper" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -715,10 +510,28 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <configuration default="false" name="samplewebapp" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fullstackapp3.4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fullstackapp" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flaskappexample/samplewebapp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.makerspacebot" />
-      <item index="1" class="java.lang.String" itemvalue="Python.BeautifulSoupScraper" />
-      <item index="2" class="java.lang.String" itemvalue="Python.makerspacebot (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.samplewebapp" />
+      <item index="2" class="java.lang.String" itemvalue="Python.BeautifulSoupScraper" />
+      <item index="3" class="java.lang.String" itemvalue="Python.makerspacebot (1)" />
     </list>
     <recent_temporary>
       <list size="2">
@@ -735,21 +548,37 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27306548" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19642857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24630542" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39901477" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24630542" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39901477" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24630542" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27306548" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39901477" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -848,74 +677,16 @@
           <line>68</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/flaskappexample/arachneflaskapp.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/makerspacescraper/makerspacescraper/spiders/makerspacebot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-            <element signature="e#1199#1912#0" expanded="false" />
-            <element signature="e#1953#1985#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fullstackapp/Lib/site-packages/twisted/internet/defer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="458" column="0" selection-start-line="458" selection-start-column="0" selection-end-line="458" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fullstackapp/Lib/site-packages/twisted/internet/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1242" column="0" selection-start-line="1242" selection-start-column="0" selection-end-line="1242" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapy/item.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapy/utils/trackref.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapy/utils/misc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapy/spiderloader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -923,7 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="290" column="0" selection-start-line="290" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -931,7 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -939,7 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="169" column="0" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -948,7 +716,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#24#37#0" expanded="true" />
             <element signature="e#1199#1912#0" expanded="false" />
             <element signature="e#1953#1985#0" expanded="false" />
           </folding>
@@ -967,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1024,7 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1039,16 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="555" column="0" selection-start-line="555" selection-start-column="0" selection-end-line="555" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/makerspacescraper/BeautifulSoupScraper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1098,7 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1634" column="0" selection-start-line="1634" selection-start-column="0" selection-end-line="1634" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1113,7 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="458" column="0" selection-start-line="458" selection-start-column="0" selection-end-line="458" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1121,7 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1242" column="0" selection-start-line="1242" selection-start-column="0" selection-end-line="1242" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1129,7 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1137,7 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1145,7 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1153,7 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1161,7 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="290" column="0" selection-start-line="290" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1169,7 +916,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fullstackapp/Lib/site-packages/pkg_resources/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapy/cmdline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/makerspacescraper/makerspacescraper/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/makerspacescraper/makerspacescraper/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1181,67 +955,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fullstackapp/Lib/site-packages/pkg_resources/__init__.py">
+    <entry file="file://$PROJECT_DIR$/makerspacescraper/makerspacescraper/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+          <caret line="113" column="34" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fullstackapp/Lib/site-packages/scrapy/cmdline.py">
+    <entry file="file://$PROJECT_DIR$/flaskappexample/templates/acceptaddress.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="-1.1956521">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/makerspacescraper/makerspacescraper/arachneflaskapp.py">
+    <entry file="file://$PROJECT_DIR$/makerspacescraper/BeautifulSoupScraper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.13769363">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/makerspacescraper/makerspacescraper/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5524957">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flaskappexample/templates/postdatafromserverthroughget.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="18" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flaskappexample/arachneflaskapp.py">
+    <entry file="file://$PROJECT_DIR$/flaskappexample/templates/changedatainjs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-2.7586207">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/makerspacescraper/makerspacescraper/settings.py">
+    <entry file="file://$PROJECT_DIR$/flaskappexample/templates/showmap.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.068966">
-          <caret line="111" column="7" selection-start-line="111" selection-start-column="7" selection-end-line="111" selection-end-column="7" />
+        <state vertical-scroll-proportion="-10.344828">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/makerspacescraper/makerspacescraper/spiders/makerspacebot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5438898">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="81" column="58" selection-start-line="81" selection-start-column="58" selection-end-line="81" selection-end-column="58" />
           <folding>
-            <element signature="e#24#37#0" expanded="true" />
             <element signature="e#1199#1912#0" expanded="false" />
             <element signature="e#1953#1985#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/makerspacescraper/makerspacescraper/spiders/table.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/makerspacescraper/makerspacescraper/spiders/makerspacesdata">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flaskappexample/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5172415">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flaskappexample/samplewebapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="81" column="38" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/makerspacescraper/makerspacescraper/arachneflaskapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17211704">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>

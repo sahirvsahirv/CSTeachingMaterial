@@ -1,0 +1,126 @@
+(fullstackapp) C:\Users\Gowri\Desktop\CS_classes\MaterialRepo\CSTeachingMaterial\Flask\fullstackapp\makerspacescraper\makerspacescraper>python arachneflaskapp.py
+2018-01-25 10:47:57 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: scrapybot)
+2018-01-25 10:47:57 [scrapy.utils.log] INFO: Versions: lxml 4.1.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.3.1, w3lib 1.18.0, Twisted 17.9.0, Python 2.7.14 (v2.7.14:84471935ed, Sep 16 2017, 20:19:30) [MSC v.1500 32 bit (Intel)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.1.4, Platform Windows-10-10.0.16299
+2018-01-25 10:49:28 [scrapy.crawler] INFO: Overridden settings: {}
+2018-01-25 10:49:28 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2018-01-25 10:49:28 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-01-25 10:49:28 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-01-25 10:49:28 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-01-25 10:49:28 [scrapy.core.engine] INFO: Spider opened
+2018-01-25 10:49:28 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-01-25 10:49:28 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-01-25 10:49:29 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://diyhacking.com/makerspaces> from <GET https://www.diyhacking.com/makerspaces>
+2Traceback (most recent call last):
+  File "C:\Python27\Lib\logging\__init__.py", line 882, in emit
+    stream.write(fs % msg)
+IOError: [Errno 0] Error
+Logged from file retry.py, line 75
+2018-01-25 10:50:08 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://diyhacking.com/makerspaces/> from <GET https://diyhacking.com/makerspaces>
+2018-01-25 10:50:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://diyhacking.com/makerspaces/> (referer: None)
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'The Crucible', 'url': u'http://thecrucible.org/'}
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'HeatSync Labs', 'url': u'http://www.heatsynclabs.org/'}
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'Harold Washington Library Center',
+ 'url': u'https://www.chipublib.org/maker-lab/'}
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'FamiLab', 'url': u'https://familab.org/'}
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'Sector 67', 'url': u'http://www.sector67.org/blog/'}
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'\xa0The KID Museum', 'url': u'http://kid-museum.org/'}
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'FABLAB Devon', 'url': u'http://www.fablabdevon.org/'}
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'Makerversity', 'url': u'http://makerversity.org/'}
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'Makerversity', 'url': u'http://makerversity.org/'}
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'Nouvelle Fabrique', 'url': u'http://www.nouvellefabrique.fr/'}
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'MADE Makerspace', 'url': u'http://made-bcn.org/'}
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'\xa0MAKE Germany', 'url': u'http://make-germany.de/'}
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'Fab Lab-Technopark',
+ 'url': u'https://startupmission.kerala.gov.in/fablab'}
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'Fab Lab- Startup Village',
+ 'url': u'https://startupmission.kerala.gov.in/fablab'}
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'CEPT University Fab Lab', 'url': u'http://fablab.cept.ac.in/'}
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'Workbench Projects', 'url': u'https://www.workbenchprojects.com/'}
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'IKP Eden', 'url': u'http://ikpeden.com/'}
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'\xa0Makers Asylum', 'url': u'http://www.makersasylum.com/'}
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'\xa0Riidl Centre', 'url': u'http://riidl.org/'}
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'\xa0Curiosity Gym', 'url': u'http://curiositygym.com/'}
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'Vigyan Ashram\xa0', 'url': u'http://vigyanashram.com/'}
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'\xa0', 'url': u'http://bangalorealphalab.in/'}
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'IoT Labs', 'url': u'http://www.makersasylum.com/'}
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'\xa0Makers Asylum', 'url': u'http://www.meerutmakerspace.com/'}
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'\xa0Meerut MakerSpace', 'url': u'http://www.nif.org.in/'}
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'\xa0National Innovation Foundation',
+ 'url': u'https://www.fablabs.io/bpalya'}
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'\xa0E4D Banjarapalya', 'url': u'http://kolkatamaker.space/'}
+2018-01-25 10:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://diyhacking.com/makerspaces/>
+{'name': u'\xa0MakersLoft', 'url': u'http://collab.house/'}
+2018-01-25 10:50:10 [root] DEBUG: In the parse method:
+2018-01-25 10:50:10 [root] DEBUG: In the parse method:  <Selector xpath=None data=u'<html itemscope="itemscope" itemtype="ht'>
+2018-01-25 10:50:10 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-01-25 10:50:10 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/twisted.web._newclient.ResponseNeverReceived': 1,
+ 'downloader/request_bytes': 1087,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 20109,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/301': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 1, 25, 5, 20, 10, 116000),
+ 'item_scraped_count': 28,
+ 'log_count/DEBUG': 35,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'retry/count': 1,
+ 'retry/reason_count/twisted.web._newclient.ResponseNeverReceived': 1,
+ 'scheduler/dequeued': 4,
+ 'scheduler/dequeued/memory': 4,
+ 'scheduler/enqueued': 4,
+ 'scheduler/enqueued/memory': 4,
+ 'start_time': datetime.datetime(2018, 1, 25, 5, 19, 28, 453000)}
+2018-01-25 10:50:10 [scrapy.core.engine] INFO: Spider closed (finished)

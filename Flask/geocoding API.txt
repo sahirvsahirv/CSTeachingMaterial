@@ -1,0 +1,34 @@
+GeoCoding API key
+
+https://developers.google.com/maps/documentation/geocoding/get-api-key
+
+
+Need to enter email id gowri.r@gmail.com
+
+AIzaSyCI2tEqnQfGLFEEsvO4xjOppywbXtYdutw =  APIKEY
+
+change the key on the API CONSOLE
+
+TODO
+How to generate unrestricted API key?
+
+
+https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyCI2tEqnQfGLFEEsvO4xjOppywbXtYdutw
+
+
+Curiosity Gym,6,Palkhivala Building,1st floor,296 Shahid Bhagat Singh Road,Opposite Vijaya Bank near GPO,Fort,Mumbai 400001
+
+
+JSON data for CuriosityGym
+
+https://maps.googleapis.com/maps/api/geocode/json?address=Curiosity%20Gym,6,Palkhivala%20Building,1st%20floor,296%20Shahid%20Bhagat%20Singh%20Road,Opposite%20Vijaya%20Bank%20near%20GPO,Fort,Mumbai%20400001&key=AIzaSyCI2tEqnQfGLFEEsvO4xjOppywbXtYdutw
+
+check for STATUS, OK at the end programatically
+
+
+
+point_of_interest indicates a named point of interest. Typically, these "POI"s are prominent local entities that don't easily fit in another category, such as "Empire State Building" or "Statue of Liberty."
+
+establishment typically indicates a place that has not yet been categorized.
+
+TODO: Extract the address also fro xPATH and append it to the above URL -

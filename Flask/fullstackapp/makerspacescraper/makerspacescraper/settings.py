@@ -67,12 +67,12 @@ ROBOTSTXT_OBEY = True
 
 #commenting it for the flask app - not working with arachnade
 
-ITEM_PIPELINES = {
+#ITEM_PIPELINES = {
         #'makerspacescraper.pipelines.MakerspacescraperPipeline': 300,
         #'makerspacescraper.pipelines.JsonPipeline': 300,
         #from flask since the directory is different - remove makerspacescraper
-        'pipelines.JsonPipeline': 300,
-    }
+ #       'makerspacescraper.pipelines.JsonPipeline': 300,
+  #  }
 
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -109,10 +109,10 @@ SPIDER_SETTINGS = [
         'location': 'spiders.makerspacebot',
         'spider': 'MakerspacebotSpider',
 
-       #'scrapy_settings':  {
-        #    'ITEM_PIPELINES': {
-         #       'pipelines.JsonPipeline': 500
-          #  }
-        #}
+       'scrapy_settings':  {
+            'ITEM_PIPELINES': {
+                'makerspacescraper.pipelines.JsonPipeline': 500
+            }
+        }
     }
 ]

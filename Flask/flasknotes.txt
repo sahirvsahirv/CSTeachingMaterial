@@ -117,6 +117,12 @@ geojson api
 cloud google
 da and ml
 
+scrapy not on cloud
+
+have this data written to a json text - read and show geojson and current spot closest makerspace
+and store current spots and see which area is most popular for makerspaces
+
+enter current address and show nearest maker space to your current address
 
 scrapy deamon
 
@@ -153,3 +159,40 @@ Refer to demo
 https://github.com/kirankoduru/arachne-demo
 
 now call this link from another page
+
+
+Flask help:
+https://kirankoduru.github.io/python/sqlalchemy-pipeline-scrapy.html
+
+-- sensors pick up information from AC's fans, heaters etc
+--Predictor - future power consumption based on the data trends and hence not do
+meetings that might need perhaps more than 50 when can manage only 50
+--Track the power and smart meter system - what does it mean?
+and how to track power?
+--what are soft sensors? sensing current occupancy and smart door
+--scan and wake up
+--
+
+
+1. read address from file
+2. ask current address
+3. see distance and plot
+4. store all closest maker spaces and plot which is the most frequent
+
+
+---3.4---- flask virtualenv 3.4
+pip install flask-bootstrap
+pip install flask-wtf for webforms
+
+
+set the app's virtual environment to the new directory for debug
+
+in File->Settings->Project Interpreter->project interpreter -> choose the 3.4 interpreter
+
+
+--->pip install flask_bootstrap for basic form sytax
+installed here
+C:\Users\Gowri\Desktop\CS_classes\MaterialRepo\CSTeachingMaterial\Flask\fullstackapp\fullstackapp3.4\Lib\site-packages\flask_bootstrap
+
+
+

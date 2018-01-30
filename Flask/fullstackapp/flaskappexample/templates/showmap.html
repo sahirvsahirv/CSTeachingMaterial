@@ -4,8 +4,51 @@
 <!--<h1>showing map of {{name}}</h1>-->
 
 showing map
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block content %}
+<div class="container">
+    <p>Inside the div</p>
+
+</div>
+{% endblock %}
+<form class="form form-horizontal" method="POST" role="form">
+    {{form.csrf_token}}
+    {{wtf.quick_form(form)}}
+    <p>
+    {%if address %}
+        Your address received at the client from render_template is {{address|upper}}
+    {% endif %}
+    </p>
+    <p>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      {% for message in messages %}
+         {{ message }}
+      {% endfor %}
+    {% endif %}
+    {% endwith %}
+    </p>
+</form>
 
 
+
+
+<!--<div
+<title>
+    {% block title %} Flask app {% endblock %}
+</title>
+
+ class="page_header">
+<p>Your current address is {%if address %} {{address}}{% else %}No address{% endif %}</p>
+</div>
+
+
+
+
+
+
+-->
 </body>
 
 
