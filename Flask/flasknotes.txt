@@ -3,6 +3,8 @@
 3. cd the dir path
 cd scripts
 activate
+
+In BASH -> source activate
 4. the shell appears
 5. pip install flask here
 6. since not using pydev - python interpreter by typing python on the virtualenv prompt
@@ -196,3 +198,79 @@ C:\Users\Gowri\Desktop\CS_classes\MaterialRepo\CSTeachingMaterial\Flask\fullstac
 
 
 
+FLASK Architechture
+https://www.freshlex.com/2017/03/13/pass-bootstrap-html-attributes-to-flask-wtforms/
+
+
+GOOGLE map api python client
+pip install --upgrade google-api-python-client
+
+pip install urllib for geocoding api
+
+
+
+NEXT STEPS:
+1. Get the location in from the scraper
+2. Store in a no SQL database
+3. Read the current address and compare in locations from the noSQL database
+4. Store the distance in another column
+5. Get the closest distance
+6. Store the current address, closest distance and address of the makerspace in a different table
+7. Retreive it and map it or show data
+
+Check if possible
+================
+7. Run all on the cloud the scraper and the flask application
+8. Debug flask using Pycharm 
+
+Next steps:
+==========
+UI - html, css
+Table
+Some javascript
+
+
+Google cloud on caramel vine
+ Downloading Scrapy-1.5.0-py2.py3-none-any.whl (251kB)
+ Downloading Flask-0.12.2-py2.py3-none-any.whl (83kB)
+
+
+https://console.cloud.google.com/freetrial?project=caramel-vine-183508 ---> google console
+
+RUN
+----
+gcloud init
+
+https://cloud.google.com/compute
+[29] asia-southeast1-a
+
+to change
+[gcloud config set compute/zone NAME]
+
+
+* Commands that require authentication will use gowri@curiositygym.com by default
+* Commands will reference project `caramel-vine-183508` by default
+* Compute Engine commands will use region `asia-southeast1` by default
+* Compute Engine commands will use zone `asia-southeast1-a` by default
+
+gcloud help config
+
+NAME:"mygcloudsource"
+
+gcloud source repos create mycloudfullstackrepo
+
+
+current address - powai - 15 - makers asylum
+dadar - 10 - curiositygym
+
+
+Use case:
+
+Login into amazon - see which is the lowest rate for books - books below 200 everyday 
+deals
+and automatically intimate
+
+- scrape different websites for the lowest cost of each product
+
+- see user trends - amazon login which section is most commonly searched for and deals
+in that section flashed

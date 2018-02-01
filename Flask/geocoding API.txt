@@ -32,3 +32,84 @@ point_of_interest indicates a named point of interest. Typically, these "POI"s a
 establishment typically indicates a place that has not yet been categorized.
 
 TODO: Extract the address also fro xPATH and append it to the above URL -
+
+
+https://maps.googleapis.com/maps/api/geocode/json?address=901+Odyssey+1+Hiranandani+Gardens+Powai+Mumbai&key=AIzaSyCI2tEqnQfGLFEEsvO4xjOppywbXtYdutw
+lat = 19.120278
+long = 72.91011259999999
+
+
+
+
+
+https://maps.googleapis.com/maps/api/geocode/json?address=CuriosityGym+Fort+Mumbai&key=AIzaSyCI2tEqnQfGLFEEsvO4xjOppywbXtYdutw
+
+lat = 18.936292
+long = 72.837322
+
+19.120278,72.91011259999999|18.936292,72.837322
+
+https://roads.googleapis.com/v1/nearestRoads?points=19.120278,72.91011259999999|18.936292,72.837322&key=AIzaSyCI2tEqnQfGLFEEsvO4xjOppywbXtYdutw
+
+
+ERROR:
+
+{
+  "error": {
+    "code": 403,
+    "message": "Google Maps Roads API has not been used in project 17823869983 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/roads/overview?project=17823869983 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.",
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Google developer console API activation",
+            "url": "https://console.developers.google.com/apis/api/roads/overview?project=17823869983"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+
+
+nearest roads API - get another API key
+https://developers.google.com/maps/documentation/roads/nearest
+
+AIzaSyDkFnFJC944YjoW5DL_cx0viS3LyahUpzc
+https://roads.googleapis.com/v1/nearestRoads?points=19.120278,72.91011259999999|18.936292,72.837322&key=AIzaSyDkFnFJC944YjoW5DL_cx0viS3LyahUpzc
+
+
+
+Distance matrix API 
+AIzaSyD4us4TCIWQ3mod9fc-ORsA0pq6pRkIUaU
+
+
+https://maps.googleapis.com/maps/api/distancematrix/json?origins=CuriosityGym+Mumbai&destinations=Hiranandani+Powai+Mumbai&key=AIzaSyD4us4TCIWQ3mod9fc-ORsA0pq6pRkIUaU
+
+{
+   "destination_addresses" : [ "Hiranandani Gardens, Powai, Mumbai, Maharashtra 400076, India" ],
+   "origin_addresses" : [
+      "6, Palkhivala Building, 1st floor, 296, Shahid Bhagat Singh Road, Opposite Vijaya Bank, Fort, Mumbai, Maharashtra 400001, India"
+   ],
+   "rows" : [
+      {
+         "elements" : [
+            {
+               "distance" : {
+                  "text" : "30.8 km",
+                  "value" : 30823
+               },
+               "duration" : {
+                  "text" : "49 mins",
+                  "value" : 2922
+               },
+               "status" : "OK"
+            }
+         ]
+      }
+   ],
+   "status" : "OK"
+}

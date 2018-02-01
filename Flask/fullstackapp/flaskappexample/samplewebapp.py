@@ -10,7 +10,9 @@ from wtforms.validators import DataRequired
 from flask_wtf.csrf import CSRFProtect
 #This import is required for the wtf import in showmap.html to work
 from flask_bootstrap import Bootstrap
-
+import urllib3
+from bs4 import BeautifulSoup
+import json
 
 #flask instance stored in app
 app = Flask(__name__)
@@ -27,6 +29,7 @@ def indexing():
 
     #A GET request with render_tempate
     #here by just returning it is the response object that is returned
+    print("root")
     return '<h1>hello world</h1>'
 
     #returns from back end to front end
@@ -64,16 +67,37 @@ class SubmitAddressForm(Form):
 @app.route('/showmap', methods=['GET', 'POST'])
 def showmap():
     address = None
+    print("show map func")
     form = SubmitAddressForm()
-
+    finList = []
     if request.method == 'POST':
         address = form.address.data
         print("addr on the server side=  " + address)
         form.address.data = ''
         flash('your address is  ' + address)
 
+        GOOGLE_MAPS_API_URL = 'https://maps.googleapis.com/maps/api/geocode/json?'
+        addP = "address=" + address.replace(" ", "+", -1)
+        apikey = 'AIzaSyCI2tEqnQfGLFEEsvO4xjOppywbXtYdutw'
+        GeoUrl = GOOGLE_MAPS_API_URL + addP + "&key=" + apikey
+        print("inside POST")
+        http = urllib3.PoolManager()
 
-    return render_template('showmap.html', form=form, address= address)
+        response = http.request('GET', GeoUrl)
+        print("Received response")
+        jsonRaw = response.data.decode('utf-8')
+        print(jsonRaw)
+
+        jsonData = json.loads(jsonRaw)
+        print(jsonData)
+
+        if jsonData['status'] == 'OK':
+            results = jsonData['results'][0]
+            finList = [results['formatted_address'], results['geometry']['location']['lat'], results['geometry']['location']['lng']]
+            print(finList)
+
+    return render_template('showmap.html', form=form, address=finList)
+
 
 #you just sent data to javascript
 #decorator for another page
