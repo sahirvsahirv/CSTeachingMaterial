@@ -30,7 +30,7 @@ def indexing():
     #A GET request with render_tempate
     #here by just returning it is the response object that is returned
     print("root")
-    return '<h1>hello world</h1>'
+    return('<h1>hello world</h1>')
 
     #returns from back end to front end
     #return "just started"
@@ -39,7 +39,7 @@ def indexing():
 #pass param in url that is picke up from client side and gets <addr> value in the backend
 @app.route('/address/<addr>')
 def showaddress(addr):
-    return '<h1>The address is {} </h1>'.format(addr)
+    return('<h1>The address is {} </h1>'.format(addr))
 
 #now you want a template generating this response since you do not want to add html code here
 #adding request with actual values and getting the final response string is called rendering
