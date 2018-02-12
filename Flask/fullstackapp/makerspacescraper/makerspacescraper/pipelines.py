@@ -15,15 +15,17 @@ from scrapy.exporters import JsonItemExporter
 class JsonPipeline(object):
     def __init__(self):
         print("in pipline init")
-        self.file = open("makerspacesdata", 'wb+')
+        self.file = open("makerspacesdata", 'w')
         print("in pipline init")
         self.exporter = JsonItemExporter(self.file, encoding='utf-8', ensure_ascii=False)
         self.exporter.start_exporting()
 
     def close_spider(self, spider):
+        print("in pipline close")
         self.exporter.finish_exporting()
         self.file.close()
 
     def process_item(self, item, spider):
+        print("in pipline process_item")
         self.exporter.export_item(item)
         return item

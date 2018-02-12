@@ -73,8 +73,22 @@ from scrapy.utils.project import get_project_settings
 
 print("calling scrapy here")
 
+#print(get_project_settings().copy_to_dict())
+s = get_project_settings()
+
+s.update({'ITEM_PIPELINES': {'makerspacescraper.makerspacescraper.pipelines.JsonPipeline': 900}})
+#s['ITEM_PIPELINES'] = "{'makerspacescraper.pipelines.JsonPipeline': 900}"
+
+print(s.get('ITEM_PIPELINES').copy_to_dict())
 print(get_project_settings().copy_to_dict())
-process = CrawlerRunner(get_project_settings())
+    #"{
+        #'makerspacescraper.pipelines.MakerspacescraperPipeline': 300,
+        #'makerspacescraper.pipelines.JsonPipeline': 300,
+        #from flask since the directory is different - remove makerspacescraper
+     #   'makerspacescraper.pipelines.JsonPipeline': 900
+     #   }"
+
+process = CrawlerRunner(s)
 
 scrape_in_progress = False
 scrape_complete = False
