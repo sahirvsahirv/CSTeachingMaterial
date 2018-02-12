@@ -21,7 +21,7 @@ class MakerSpaces(scrapy.Item):
 class MakerspacebotSpider(scrapy.Spider):
     ##name with which you run the command line - scrapy crawl ,akerspacebot
     name = 'makerspacebot'
-
+    itemarr = []
 
     allowed_domains = ['diyhacking.com']
     #allowed_domains = ['en.wikipedia.org']
@@ -81,17 +81,18 @@ class MakerspacebotSpider(scrapy.Spider):
         msnames = urls.xpath('//table//tr//td[2]//text()').extract()
         #adding //@href without the text gets all the urls
         msurls = urls.xpath('//table//tr//td[4]//@href').extract()
+        print("in parse method")
 
 
-        itemarr = []
         for count in range(len(msnames)-1):
             item = MakerSpaces()
             item['url'] = msurls[count]
             item['name'] = msnames[count]
-            itemarr.append(item)
+            self.itemarr.append(item)
             #print("item is = " + str(itemarr[count]))
             #yield every item and can't yield a list
-            yield itemarr[count]
+            print(self.itemarr)
+            yield self.itemarr[count]
 
         #item = MakerSpaces()
         #item['url'] = msurls

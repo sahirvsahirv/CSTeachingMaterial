@@ -64,12 +64,63 @@ class SubmitAddressForm(Form):
     submitButton =  SubmitField('Submit')
 
 
+
+
+from makerspacescraper.makerspacescraper.spiders.makerspacebot import MakerspacebotSpider
+import scrapy
+from scrapy.crawler import CrawlerRunner
+from scrapy.utils.project import get_project_settings
+
+print("calling scrapy here")
+
+print(get_project_settings().copy_to_dict())
+process = CrawlerRunner(get_project_settings())
+
+scrape_in_progress = False
+scrape_complete = False
+address = []
+
+
+def finished_scrape(null):
+        """
+        :param null:
+        :return:
+        callback after scraping is over
+        """
+        global scrape_complete
+        print("scrape complete")
+        scrape_complete = True
+
 @app.route('/showmap', methods=['GET', 'POST'])
 def showmap():
     address = None
     print("show map func")
     form = SubmitAddressForm()
     finList = []
+
+    global scrape_complete
+    global scrape_in_progress
+    #List of maker spaces and their addressses or only address
+    #Check with what the user entered and calculate distance
+    #with each - the least distance one is what needs to be
+    #displayed
+    global address
+    print("have started crawl process 1")
+    if not scrape_in_progress:
+        scrape_in_progress = True
+        eventual = process.crawl(MakerspacebotSpider, address=MakerspacebotSpider.itemarr)
+        print("have started crawl process")
+        #process.start() # the script will block here until the crawling is finished
+        eventual.addCallback(finished_scrape)
+        return 'SCRAPING'
+    elif scrape_complete:
+        return 'SCRAPE COMPLETE'
+    return 'SCRAPE IN PROGRESS'
+
+    #process.crawl(MakerspacebotSpider)
+    #process.start()
+    #print("scraping over - check for a file getting created")
+    
     if request.method == 'POST':
         address = form.address.data
         print("addr on the server side=  " + address)
@@ -97,6 +148,7 @@ def showmap():
             print(finList)
 
     return render_template('showmap.html', form=form, address=finList)
+
 
 
 #you just sent data to javascript
@@ -153,4 +205,20 @@ def showmap():
 
 
 if __name__ == "__main__":
-    app.run()
+    from sys import stdout
+    from twisted.logger import globalLogBeginner, textFileLogObserver
+    from twisted.web import server, wsgi
+    from twisted.internet import endpoints, reactor
+
+    # start the logger
+    globalLogBeginner.beginLoggingTo([textFileLogObserver(stdout)])
+
+    # start the WSGI server
+    root_resource = wsgi.WSGIResource(reactor, reactor.getThreadPool(), app)
+    factory = server.Site(root_resource)
+    http_server = endpoints.TCP4ServerEndpoint(reactor, 9000)
+    http_server.listen(factory)
+
+    # start event loop
+    reactor.run()
+    #app.run()

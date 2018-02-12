@@ -111,7 +111,7 @@ SPIDER_SETTINGS = [
 
        'scrapy_settings':  {
             'ITEM_PIPELINES': {
-                'makerspacescraper.pipelines.JsonPipeline': 500
+                'makerspacescraper.pipelines.JsonPipeline': 900
             }
         }
     }

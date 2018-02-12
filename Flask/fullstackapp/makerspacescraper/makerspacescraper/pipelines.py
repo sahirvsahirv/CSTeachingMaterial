@@ -14,6 +14,7 @@ from scrapy.exporters import JsonItemExporter
 
 class JsonPipeline(object):
     def __init__(self):
+        print("in pipline init")
         self.file = open("makerspacesdata", 'wb+')
         print("in pipline init")
         self.exporter = JsonItemExporter(self.file, encoding='utf-8', ensure_ascii=False)
